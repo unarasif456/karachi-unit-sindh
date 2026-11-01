@@ -5,9 +5,9 @@ import { PageHero, SiteLayout } from "@/components/site/Layout";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Air Karachi" },
-      { name: "description", content: "Air Karachi se rabta karein." },
-      { property: "og:title", content: "Contact — Air Karachi" },
+      { title: "Contact — Karachi Unit" },
+      { name: "description", content: "Karachi Unit se rabta karein." },
+      { property: "og:title", content: "Contact — Karachi Unit" },
       { property: "og:description", content: "Sawal ya booking ke liye hum se rabta karein." },
     ],
   }),
