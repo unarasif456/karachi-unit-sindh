@@ -93,7 +93,7 @@ function Footer() {
         <div>
           <h4 className="mb-4 font-display text-lg">Links</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            {[["/", "Home"], ["/about", "About"], ["/services", "Services"], ["/contact", "Contact"]].map(([to, l]) => (
+            {([["/", "Home"], ["/about", "About"], ["/services", "Services"], ["/contact", "Contact"]] as const).map(([to, l]) => (
               <li key={to}><Link to={to} className="transition-colors hover:text-primary">{l}</Link></li>
             ))}
           </ul>
