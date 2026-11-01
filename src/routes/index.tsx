@@ -25,8 +25,8 @@ const facts = [
 function Index() {
   return (
     <SiteLayout>
-      <section className="relative mx-auto mt-6 h-[75vh] max-w-7xl overflow-hidden rounded-3xl">
-        <video src={video.url} autoPlay muted loop playsInline className="absolute inset-0 h-full w-full object-cover" />
+      <section className="relative h-[82vh] overflow-hidden">
+        <video src={video.url} autoPlay muted loop playsInline className="video-bright absolute inset-0 h-full w-full object-cover" />
         <div className="bg-hero-overlay absolute inset-0" />
         <div className="relative flex h-full flex-col items-center justify-center px-6 text-center text-on-overlay">
           <p className="animate-fade-up mb-4 text-sm tracking-[0.3em] text-gold uppercase">Khush Aamdeed</p>
