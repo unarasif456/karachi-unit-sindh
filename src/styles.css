@@ -105,6 +105,7 @@
 
 @utility animate-fade-up { animation: fade-up .9s cubic-bezier(.2,.7,.2,1) both; }
 @utility animate-float { animation: float 4s ease-in-out infinite; }
+@utility logo-pulse { animation: logo-pulse 2.2s ease-in-out infinite; }
 @utility animate-letter { display: inline-block; animation: letter .7s cubic-bezier(.2,.7,.2,1) both; }
 @utility text-shimmer {
   background: var(--gradient-text);
