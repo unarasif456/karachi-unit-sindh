@@ -45,7 +45,7 @@ function Header() {
     <header className="sticky top-0 z-50 border-b bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3">
         <Link to="/" className="flex min-w-0 items-center">
-          <img src={logo} alt="Karachi Unit" width={250} height={280} className="logo-hover h-12 w-auto" />
+          <img src={logo} alt="Karachi Unit" width={250} height={280} className="logo-hover logo-pulse h-12 w-auto cursor-pointer" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link to="/" className={link} activeOptions={{ exact: true }}>Home</Link>

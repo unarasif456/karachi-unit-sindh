@@ -100,6 +100,7 @@
 @keyframes shimmer { to { background-position: 200% center; } }
 @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 @keyframes logo-spin { from { transform: rotate(0); } to { transform: rotate(360deg); } }
+@keyframes logo-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.18); } }
 @keyframes letter { from { opacity: 0; transform: translateY(0.6em) rotate(8deg); filter: blur(6px); } to { opacity: 1; transform: none; filter: none; } }
 
 @utility animate-fade-up { animation: fade-up .9s cubic-bezier(.2,.7,.2,1) both; }
