@@ -5,7 +5,7 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Mashhoor Muqamat — Karachi Unit" },
-      { name: "description", content: "Mazar-e-Quaid, Mohatta Palace aur Frere Hall ki tafseel photos ke saath." },
+      { name: "description", content: "Mazar-e-Quaid, Mohatta Palace, Frere Hall, Clifton Beach aur Empress Market ki tafseel photos ke saath." },
       { property: "og:title", content: "Mashhoor Muqamat — Karachi Unit" },
       { property: "og:description", content: "Karachi ke tareekhi muqamat." },
     ],
