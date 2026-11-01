@@ -6,11 +6,15 @@ import logo from "@/assets/logo.png";
 import mazar from "@/assets/mazar-quaid.jpg";
 import mohatta from "@/assets/mohatta-palace.jpg";
 import frere from "@/assets/frere-hall.jpg";
+import clifton from "@/assets/clifton-beach.jpg";
+import empress from "@/assets/empress-market.jpg";
 
 export const services = [
   { slug: "mazar-e-quaid", title: "Mazar-e-Quaid", img: mazar, desc: "Quaid-e-Azam Muhammad Ali Jinnah ka safaid marble ka shandar maqbara. 1970 mein mukammal hua, yeh Karachi ki sab se mashhoor pehchan hai. Yahan Madar-e-Millat Fatima Jinnah aur Liaquat Ali Khan bhi madfoon hain. Har saal 25 December, 14 August aur 11 September ko change of guard ki taqreeb hoti hai." },
   { slug: "mohatta-palace", title: "Mohatta Palace", img: mohatta, desc: "1927 mein Shivratan Mohatta ne Clifton mein yeh gulabi Jodhpur pathar ka mahal banwaya. Mughal aur Rajput tarz-e-tameer ka shahkar. Baad mein Fatima Jinnah yahan rahin, aur aaj yeh museum hai jahan Pakistan ki saqafat aur tareekh ki numaish hoti hai." },
   { slug: "frere-hall", title: "Frere Hall", img: frere, desc: "1865 mein Sir Bartle Frere ki yaad mein bana Venetian Gothic imarat. Khoobsurat bagh, library aur Sadequain ki mashhoor chhat ki painting is ki khaas baat hai." },
+  { slug: "clifton-beach", title: "Clifton Beach (Sea View)", img: clifton, desc: "Arabian Sea kinara jahan shaam ko sooraj doobne ka nazar dekhne log ba-raste aate hain. Camel ki sawari, junk ka khana aur thandi samandari hawa — Sea View Karachi ki sab se pyari jagah hai. Jadeed buildings aur illuminated fountains ne is ko aur khoobsurat bana diya hai." },
+  { slug: "empress-market", title: "Empress Market", img: empress, desc: "1889 mein British daur mein banaya gaya yeh laal pathar ka shandaar bazaar Saddar ka dil hai. Ghanti ghar (clock tower), taaza sabzi, phal, masalay aur purani dukaanon ki khushboo — Empress Market Karachi ki asal dastakhat hai. Yeh Karachi ki tareekhi bazars mein sab se mashhoor hai." },
 ];
 
 function ThemeToggle() {
