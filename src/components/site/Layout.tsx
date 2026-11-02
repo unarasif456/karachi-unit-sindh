@@ -8,6 +8,7 @@ import mohatta from "@/assets/mohatta-palace.jpg";
 import frere from "@/assets/frere-hall.jpg";
 import clifton from "@/assets/clifton-beach.jpg";
 import empress from "@/assets/empress-market.jpg";
+import chaukhandi from "@/assets/chaukhandi-tombs.jpg";
 
 export const services = [
   { slug: "mazar-e-quaid", title: "Mazar-e-Quaid", img: mazar, desc: "Quaid-e-Azam Muhammad Ali Jinnah ka safaid marble ka shandar maqbara. 1970 mein mukammal hua, yeh Karachi ki sab se mashhoor pehchan hai. Yahan Madar-e-Millat Fatima Jinnah aur Liaquat Ali Khan bhi madfoon hain. Har saal 25 December, 14 August aur 11 September ko change of guard ki taqreeb hoti hai." },
@@ -15,6 +16,7 @@ export const services = [
   { slug: "frere-hall", title: "Frere Hall", img: frere, desc: "1865 mein Sir Bartle Frere ki yaad mein bana Venetian Gothic imarat. Khoobsurat bagh, library aur Sadequain ki mashhoor chhat ki painting is ki khaas baat hai." },
   { slug: "clifton-beach", title: "Clifton Beach (Sea View)", img: clifton, desc: "Arabian Sea kinara jahan shaam ko sooraj doobne ka nazar dekhne log ba-raste aate hain. Camel ki sawari, junk ka khana aur thandi samandari hawa — Sea View Karachi ki sab se pyari jagah hai. Jadeed buildings aur illuminated fountains ne is ko aur khoobsurat bana diya hai." },
   { slug: "empress-market", title: "Empress Market", img: empress, desc: "1889 mein British daur mein banaya gaya yeh laal pathar ka shandaar bazaar Saddar ka dil hai. Ghanti ghar (clock tower), taaza sabzi, phal, masalay aur purani dukaanon ki khushboo — Empress Market Karachi ki asal dastakhat hai. Yeh Karachi ki tareekhi bazars mein sab se mashhoor hai." },
+  { slug: "chaukhandi-tombs", title: "Chaukhandi Tombs", img: chaukhandi, desc: "Karachi se taqreeban 29 kilometre door Landhi ke qareem yeh purana qabristan sunehri sandstone ke naqsh-o-nigaron ki misaal hai. 15vi se 18vi sadi tak bane in qabron par chhatar aur pyramidal shakal ke neeche behtareen nakkashi ki hui hai — aisi taraashwari sirf Sindh aur Balochistan ke isi ilaqe mein milti hai. Aaj yeh UNESCO ki World Heritage ki aarzi fehrist (tentative list) mein shamil hai aur Karachi ke qareem ek nayaab tareekhi maqam hai." },
 ];
 
 function ThemeToggle() {
