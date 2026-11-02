@@ -131,3 +131,6 @@
   transition: transform .35s ease, box-shadow .35s ease;
   &:hover { transform: translateY(-8px); box-shadow: var(--shadow-elegant); }
 }
+
+/* Hide any remaining Lovable badge / watermark injections */
+[data-lovable-badge], .lovable-badge, #lovable-badge { display: none !important; }
