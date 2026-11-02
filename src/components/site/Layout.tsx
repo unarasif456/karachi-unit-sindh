@@ -8,6 +8,7 @@ import mohatta from "@/assets/mohatta-palace.jpg";
 import frere from "@/assets/frere-hall.jpg";
 import clifton from "@/assets/clifton-beach.jpg";
 import empress from "@/assets/empress-market.jpg";
+import chaukhandi from "@/assets/chaukhandi-tombs.jpg";
 
 export const services = [
   { slug: "mazar-e-quaid", title: "Mazar-e-Quaid", img: mazar, desc: "Quaid-e-Azam Muhammad Ali Jinnah ka safaid marble ka shandar maqbara. 1970 mein mukammal hua, yeh Karachi ki sab se mashhoor pehchan hai. Yahan Madar-e-Millat Fatima Jinnah aur Liaquat Ali Khan bhi madfoon hain. Har saal 25 December, 14 August aur 11 September ko change of guard ki taqreeb hoti hai." },
